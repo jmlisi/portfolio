@@ -10,10 +10,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "start": "next start"
   },
   "devDependencies": {
     "@types/react": "17.0.16",
